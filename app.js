@@ -61,5 +61,5 @@ app.get('/creditos', (req,res) => {
 });
 // Ruta... ¿Pára qué sirve esto?
 app.get('*', (req, res) => {
-	res.status(404).send('404 not found. <br> ¡Escribi bien burro!');
+	res.status(404).send('<h1>404 not found. <br> ¡Escribi bien burro!</h1>');
 });
